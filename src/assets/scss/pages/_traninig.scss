@@ -1,0 +1,90 @@
+.course-progress {
+  margin-top: 30px;
+}
+
+.course-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.progress-bar-container {
+  background-color: #f0f0f0;
+  height: 8px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #6c63ff;
+  border-radius: 5px;
+}
+
+.course-details {
+  font-size: 14px;
+  color: #777;
+}
+
+/*hình ảnh*/
+img {
+  width: 100%;
+  height: 100%;
+  object-position: 10px 0;
+  filter: drop-shadow(0 0 5px rgb(83, 83, 88));
+}
+
+/* Bảng */
+.feature-section {
+  padding: 120px 0;
+}
+
+.feature-section h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Phần support */
