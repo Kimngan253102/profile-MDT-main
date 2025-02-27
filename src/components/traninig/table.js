@@ -34,6 +34,9 @@ const table = ({ bgDark }) => {
           </tr>
         </tbody>
       </table>
+      <div className="text-center">
+        <button className="upgrade-btn">Upgrade</button>
+      </div>
     </section>
   );
 };

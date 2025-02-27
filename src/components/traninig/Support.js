@@ -2,13 +2,10 @@ import React from "react";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import {
-  HiOutlineCog,
-  HiOutlineDocumentReport,
-  HiOutlineUsers,
+//  HiOutlineCog,
+//  HiOutlineDocumentReport,
+//  HiOutlineUsers,
 } from "react-icons/hi";
-//import { SiSimpleanalytics } from "react-icons/si";
-//import { IoGitCompareOutline } from "react-icons/io5";
-//import { FaCheckCircle } from "react-icons/fa";
 import SectionTitle from "../common/SectionTitle";
 
 const Umbrella = ({ bgDark }) => {
@@ -25,7 +22,11 @@ const Umbrella = ({ bgDark }) => {
               description="Stay on top of your learning with an organized dashboard and course progress updates."
               centerAlign
             />
-            {/* Automated Reports Card */}
+          </div>
+        </div>
+        <div className="row">
+          {/* Automated Reports Card */}
+          <div className={`col-lg-4 col-md-6 d-flex`}>
             <div
               className={`feature-card shadow-sm rounded-custom p-5 ${
                 bgDark
@@ -33,10 +34,13 @@ const Umbrella = ({ bgDark }) => {
                   : "bg-white"
               }`}
             >
-              <div className="icon-box d-inline-block rounded-circle bg-success-soft mb-32">
-                <span className="fal">
-                  <HiOutlineDocumentReport className="h3 text-success" />
-                </span>
+              <div className="image">
+                <img
+                  src="https://i.pinimg.com/474x/6a/ed/60/6aed600539e3e612d9034c6f8d39d9b3.jpg"
+                  alt="Image 1"
+                  width={200}
+                  height={100}
+                />
               </div>
               <div className="feature-content">
                 <h3 className="h5">Automated Reports</h3>
@@ -54,8 +58,10 @@ const Umbrella = ({ bgDark }) => {
                 </i>
               </Link>
             </div>
+          </div>
 
-            {/* User Journey Flow Card */}
+          {/* User Journey Flow Card */}
+          <div className={`col-lg-4 col-md-6 d-flex`}>
             <div
               className={`feature-card shadow-sm rounded-custom p-5 ${
                 bgDark
@@ -63,10 +69,13 @@ const Umbrella = ({ bgDark }) => {
                   : "bg-white"
               }`}
             >
-              <div className="icon-box d-inline-block rounded-circle bg-danger-soft mb-32">
-                <span className="fal">
-                  <HiOutlineUsers className="h3 text-danger" />
-                </span>
+              <div className="image">
+                <img
+                  src="https://i.pinimg.com/736x/1e/f9/2a/1ef92a1ecc97b2d9040c94f5e8cbf17f.jpg"
+                  alt="Image 1"
+                  width={200}
+                  height={100}
+                />
               </div>
               <div className="feature-content">
                 <h3 className="h5">Custom Learning Path</h3>
@@ -85,8 +94,10 @@ const Umbrella = ({ bgDark }) => {
                 </i>
               </Link>
             </div>
+          </div>
 
-            {/* Easy Customization Card */}
+          {/* Easy Customization Card */}
+          <div className={`col-lg-4 col-md-6 d-flex`}>
             <div
               className={`feature-card shadow-sm rounded-custom p-5 ${
                 bgDark
@@ -94,10 +105,13 @@ const Umbrella = ({ bgDark }) => {
                   : "bg-white"
               }`}
             >
-              <div className="icon-box d-inline-block rounded-circle bg-warning-soft mb-32">
-                <span className="fal">
-                  <HiOutlineCog className="h3 text-warning" />
-                </span>
+              <div className="image">
+                <img
+                  src="https://i.pinimg.com/474x/7c/e8/46/7ce846cea3620ab877e9e872daea369d.jpg"
+                  alt="Image 1"
+                  width={200}
+                  height={100}
+                />
               </div>
               <div className="feature-content">
                 <h3 className="h5">Easy Customization</h3>

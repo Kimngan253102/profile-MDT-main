@@ -8,7 +8,7 @@ const Pageone = () => {
     <>
       <div className="image">
         <img
-          src="https://i.pinimg.com/736x/02/b8/af/02b8af9457afdd3c0d8e9829864b0f7d.jpg"
+          src="https://i.pinimg.com/736x/51/58/7c/51587c81629e3bb04bac7879f709164a.jpg"
           alt="Image 1"
           width={200}
           height={100}
